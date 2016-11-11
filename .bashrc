@@ -76,8 +76,8 @@ function extract {
 
  else
     if [ -f $1 ] ; then
-        # NAME=${1%.*}
-        # mkdir $NAME && cd $NAME
+        NAME=${1%.*}
+        mkdir $NAME && cd $NAME
         case $1 in
           *.tar.bz2)   tar xvjf ../$1    ;;
           *.tar.gz)    tar xvzf ../$1    ;;
