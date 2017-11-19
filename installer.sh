@@ -3,9 +3,9 @@ sudo apt update
 sudo apt upgrade 
 
 #install basics
-sudo apt install -y curl wget screen build-essential htop openssh-server git
+sudo apt install -y curl wget screen build-essential htop openssh-server git unzip
 
-curl https://raw.githubusercontent.com/rogerxaic/starter/master/.bashrc >> ~/.bashrh
+curl https://raw.githubusercontent.com/rogerxaic/starter/master/.bashrc >> ~/.bashrc
 source ~/.bashrc
 
 #install nodejs
