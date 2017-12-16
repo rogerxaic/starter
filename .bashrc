@@ -1,3 +1,6 @@
+
+# blank line 
+
 function update () {
   sudo apt-get update -y && echo "" && \
   sudo apt-get dist-upgrade -y && echo "" && \
