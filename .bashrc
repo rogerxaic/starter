@@ -104,3 +104,5 @@ function extract {
     fi
 fi
 }
+
+export LC_ALL=C
