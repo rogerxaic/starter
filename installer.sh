@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-sudo apt update
-sudo apt upgrade 
+sudo apt update -y
+sudo apt upgrade -y
 
 #install basics
-sudo apt install -y curl wget screen build-essential htop openssh-server git unzip
+sudo apt install -y curl wget screen build-essential htop openssh-server git unzip sysv-rc-conf
+
 
 curl https://raw.githubusercontent.com/rogerxaic/starter/master/.bashrc >> ~/.bashrc
 source ~/.bashrc
