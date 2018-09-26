@@ -33,6 +33,8 @@ mkdir -p ~/.ssh
 touch ~/.ssh/authorized_keys
 curl https://github.com/rogerxaic.keys >> ~/.ssh/authorized_keys
 
+sudo apt install -y localepurge deborphan
+
 #############################
 # INSTALL OPTIONAL SOFTWARE #
 #############################
