@@ -22,7 +22,7 @@ sudo apt upgrade -y
 sudo apt install -y curl wget screen build-essential htop openssh-server git unzip sysv-rc-conf apt-transport-https ca-certificates software-properties-common
 
 function check_bashrc() {
-	grep "## ROGERXAIC BASHRC ##" ~/.bashrc
+	grep "## ROGERXAIC BASHRC ##" ~/.bashrc > /dev/null
 }
 
 check_bashrc || curl https://raw.githubusercontent.com/rogerxaic/starter/master/.bashrc >> ~/.bashrc
